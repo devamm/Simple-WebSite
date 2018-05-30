@@ -1,0 +1,56 @@
+/* GENERAL STYLING */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: #905aae;
+  
+}
+
+a: hover{
+  color: #ceb6db;
+}
+
+/* NAVIGATION */
+nav.navbar.navbar-default {
+    margin-bottom: 0px;
+    font-size: 18px;
+    background-color: #000;
+    border-color: #000;
+    color: #FFF;
+}
+
+
+
+/* JUMBOTRON */
+.jumbotron {
+    background-image: url("https://i.imgur.com/jfvrAt1.png");
+    background-size: 100%;  
+    background-color: #CDDDDD;
+    margin-bottom: 0;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.wrapper {
+	width = 80%;
+	margin:  0 auto;
+	text-align: center;
+}
+
+.box{
+	width:100%;
+	/*color: white; */
+}
+
+.spacer{
+	/* creates empty space when no videos loaded */
+	background: white;
+	z-index: 10;
+	width: 100%;
+	height: 500px;
+}
